@@ -51,8 +51,11 @@ This project provides an interactive analysis of restaurant data based on locati
 ![Cuisine Analysis](screenshots/cuisine_prices.png)
 ![Cuisine Analysis](screenshots/top_cuisines.png)
 
+### Top 10 cities
+![Top_10_cities](screenshots/top_10_cities.png)
+
 ## Usage
-- **Modify Data**: Replace `data.csv` with your dataset to analyze a different set of restaurants.
+- **Modify Data**: Replace `restaurant.csv` with your dataset to analyze a different set of restaurants.
 - **Customize Visualizations**: Modify the `create_visualizations()` function in `main.py`.
 - **Run on a Web Server**: Use Flask to serve the interactive visualizations.
 
@@ -60,5 +63,5 @@ This project provides an interactive analysis of restaurant data based on locati
 This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Author
-Developed by [Your Name]. Feel free to contribute or reach out for improvements!
+Developed by Alok Deep. Feel free to contribute or reach out for improvements!
 
