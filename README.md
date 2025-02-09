@@ -1,6 +1,6 @@
 # India Restaurant Analysis Project 🍽️
 
-![Restaurant Clusters Map](https://raw.githubusercontent.com/yourusername/restaurant-analysis/main/screenshots/map_preview.png)
+![Restaurant Clusters Map]([https://raw.githubusercontent.com/yourusername/restaurant-analysis/main/screenshots/map_preview.png](https://github.com/lazylad99/Location-based-Restaurant-Analysis/blob/main/screenshots/Screenshot%20(29).png))
 
 ## Overview 📊
 
