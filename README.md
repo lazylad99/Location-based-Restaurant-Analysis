@@ -1,118 +1,64 @@
-# Indian Restaurants Analysis Project 🍽️
+# Location-Based Restaurant Analysis
 
-![Restaurant Clusters Map](https://raw.githubusercontent.com/lazylad99/Location-based-Restaurant-Analysis/main/screenshots/screenshot.png)
+## Overview
+This project provides an interactive analysis of restaurant data based on location, ratings, cost, and cuisines. It utilizes data visualization techniques to generate meaningful insights, including interactive maps and statistical visualizations.
 
-## Overview 📊
+## Features
+- **Interactive Map**: Displays restaurant locations with rating-based markers.
+- **Heatmap Analysis**: Shows restaurant density based on location and ratings.
+- **Statistical Insights**: Visualizes restaurant ratings, price distributions, and cuisine popularity.
+- **Correlation Analysis**: Examines relationships between different restaurant attributes.
 
-This project analyzes restaurant data across India, creating interactive visualizations and statistical insights about restaurant distributions, ratings, cuisines, and pricing patterns. The analysis includes geographic clustering, city-wise comparisons, and detailed statistical breakdowns.
+## Technologies Used
+- **Programming Language**: Python
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Folium, Plotly, Matplotlib, Seaborn
+- **Statistical Analysis**: SciPy, Statsmodels
 
-## Features 🌟
-
-- **Interactive Map Visualization**
-  - Restaurant locations plotted on India map
-  - Cluster visualization for dense areas
-  - Click-able markers with restaurant details
-  - State boundary overlays
-
-- **Statistical Analysis**
-  - City-wise restaurant distribution
-  - Rating analysis across regions
-  - Price range distribution
-  - Cuisine diversity metrics
-
-- **Data Insights**
-  - Top cities by restaurant count
-  - Average ratings comparison
-  - Cost analysis by region
-  - Cuisine type distribution
-
-## Requirements 📋
-
-```python
-pandas==1.5.3
-folium==0.14.0
-requests==2.28.2
-```
-
-## Installation 🔧
-
+## Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/restaurant-analysis.git
-cd restaurant-analysis
-```
+    ```sh
+    git clone https://github.com/your-username/location-based-restaurant-analysis.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd location-based-restaurant-analysis
+    ```
+3. Install required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the analysis script:
+    ```sh
+    python main.py
+    ```
 
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage 🚀
-
-1. Place your restaurant data CSV file in the project directory
-2. Run the analysis script:
-```bash
-python analysis.py
-```
-
-3. Check the generated outputs:
-   - `india_restaurant_clusters.html`: Interactive map
-   - `city_statistics.csv`: Detailed city-wise analysis
-
-## Data Format 📝
-
-The input CSV should contain the following columns:
-```
-res_id, name, type, address, city, locality, latitude, longitude, 
-cuisines, timings, average_cost_for_two, price_range, highlights, 
-aggregate_rating, votes, photo_count, opentable_support, delivery, 
-state, area
-```
-
-## Output Examples 📊
-
+## Screenshots
 ### Interactive Map
-The generated map includes:
-- Restaurant markers clustered by proximity
-- Popup information for each restaurant
-- Color-coded state boundaries
-- Zoom functionality for detailed exploration
+![Interactive Map](screenshots/screenshot.png)
 
-### Statistical Insights
-```
-=== City-wise Restaurant Analysis ===
-Top 10 Cities by Restaurant Count:
-Mumbai     : 1245
-Delhi      : 1132
-Bangalore  : 987
-...
+### Restaurant Density Analysis
+![Density Map](screenshots/density_heatmap.png)
 
-Top 10 Cities by Average Rating:
-Chandigarh : 4.3
-Jaipur     : 4.2
-Pune       : 4.1
-...
-```
+### Rating Analysis
+![City Ratings](screenshots/city_ratings.png)
+![City Ratings](screenshots/rating_distribution.png)
 
-## Contributing 🤝
+### Price Analysis
+![Price Distribution](screenshots/price_distribution.png)
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Cuisine Popularity
+![Cuisine Analysis](screenshots/cuisine_prices.png)
+![Cuisine Analysis](screenshots/top_cuisines.png)
 
-## License 📄
+## Usage
+- **Modify Data**: Replace `data.csv` with your dataset to analyze a different set of restaurants.
+- **Customize Visualizations**: Modify the `create_visualizations()` function in `main.py`.
+- **Run on a Web Server**: Use Flask to serve the interactive visualizations.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
 
-## Acknowledgments 👏
+## Author
+Developed by [Your Name]. Feel free to contribute or reach out for improvements!
 
-- Restaurant data sourced from [source name]
-- India GeoJSON data from [Subhash9325's repository](https://github.com/Subhash9325/GeoJson-Data-of-Indian-States)
-
-## Contact 📧
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/restaurant-analysis](https://github.com/yourusername/restaurant-analysis)
