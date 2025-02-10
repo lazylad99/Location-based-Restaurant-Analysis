@@ -18,7 +18,7 @@ This project provides an interactive analysis of restaurant data based on locati
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/location-based-restaurant-analysis.git
+    git clone https://github.com/lazylad99/location-based-restaurant-analysis.git
     ```
 2. Navigate to the project directory:
     ```sh
